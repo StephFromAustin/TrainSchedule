@@ -9,7 +9,7 @@
     <title>Train Schedules</title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/style.css"
 
 </head>
 
@@ -17,7 +17,7 @@
 <body>
         <!-- FIRST CARD via bootstrap | TRAIN TABLE -->
         <div class="jumbotron">
-            <h1 class="display-4">Train Schedule</h1>
+            <h1 class="display-4">The New York City Train Schedule</h1>
         </div>
         <div class="train-schedule">
             <div class="card">
@@ -63,10 +63,10 @@
     </body>
     <!-- END TAGS -->
         <!-- FIREBASE TAG -->
-    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-database.js"></script>
-        <!-- FIREBASE SRC; NOT NEEDED IF KEY PLACES IN JS  --> 
-        <!-- <script src="assets/firebase-key.js"></script> -->
+        <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+    <script src="https://trainscheduletth.firebaseio.com/"></script>
+        <!-- FIREBASE SRC; DID NOT WORK IN JS... KEEP HERE OR ELSE DOOOOOOOOOOOOOM!! --> 
+        <script src="assets/firebase/firebase-key.js"></script>
         <!-- AJAX CRAP-O-LA-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js"></script>
     
@@ -76,7 +76,7 @@
         <!-- BOOTSTRAP TAG -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script>
         <!-- LOCAL JAVASCRIPT TAG -->
-    <script src="assets/app.js"></script>
+    <script src="assets/javascript/app.js"></script>
     
     </html>
     

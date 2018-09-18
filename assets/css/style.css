@@ -1,0 +1,49 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Eater|Faster+One|Metal+Mania|Montserrat:400,700|Nosifer|Playfair+Display:400,700,900|Roboto+Condensed');
+
+/* MAIN TITLE STYLE */
+.display-4 {
+    text-align: center;
+    font-family: 'nosifer', cursive; 
+    background-color: #444444;
+    color: #444444;
+    background: url(http://bronxbanter.arneson.name/wordpress/wp-content/uploads/2011/03/subway-map.jpg)
+}
+
+/* INTERACTIVE CARD STYLE */
+.card-title {
+    color: white;
+    background-color: #444444;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    font-family: 'roboto condensed', sans-serif ;
+}
+
+form {
+    padding-left: 15px;
+}
+
+.btn {
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 20px;
+}
+
+/* TABLE STYLE */
+.card-body {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: 'roboto condensed', sans-serif;
+    background-color: #444444;
+    color: white; 
+}
+
+.card {
+    margin-bottom: 5px;
+}
